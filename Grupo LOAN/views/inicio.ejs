@@ -75,6 +75,8 @@
     </section>
 
 <script>
+
+document.addEventListener("DOMContentLoaded", function() {
     const splide = new Splide(' .splide ', {
         type: 'loop',
         perPage: 3,
@@ -82,6 +84,7 @@
         autoplay: true,
     });
     splide.mount();
+});
 </script>
 
 </body>
