@@ -24,7 +24,7 @@ p{
 #img-about{
     position: relative;
     left: 150px;
-    width: 597px;
+    width: 537px;
     height: 137px;
     aspect-ratio: 9/3;
     object-fit: cover;
@@ -125,7 +125,7 @@ p{
     align-items: center;
 }
 
-.splide__arrow {
+.splide__arrow{
     margin-left: -75px;
     margin-right: -75px;
 }
