@@ -1,0 +1,16 @@
+.logo{
+    width: 254px;
+  }
+  #serviciosAnchor{
+    color: #FFFFFF;
+    padding-left: 2em;
+    font-size: larger;
+}
+  #botonCotizacion{
+    margin-right: 1em;
+    background-color: #615680;
+    border: #615680;
+    height: 39px;
+    font-size: large;
+    color: #ffffff;
+}
