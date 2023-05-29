@@ -43,7 +43,6 @@
 #main-slider{
     display: flex;
     margin-bottom: 2em;
-    width: 500px;
     position: relative;
     left: 695px;
 }
