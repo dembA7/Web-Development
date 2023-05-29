@@ -6,9 +6,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/splide.min.css">
+    <link rel="stylesheet" href="/css/servicios.css">
+    <script src="/js/splide.min.js"></script>
 </head>
 <body>
-    Página servicios
+    <section id="services">
+        <h2 class="services-h2">Nuestros servicios</h2>
+        <div id="splide-div">
+            <section class="splide" id="splide-services">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card" style="width: 18rem; height: 420px;">
+                                <img src="/assets/torno-convencional.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur mollitia aperiam accusamus distinctio!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 18rem; height: 420px;">
+                                <img src="/assets/torno-cnc.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci odit molestiae!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 18rem;">
+                                <img src="/assets/electroerosion.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut accusamus labore provident ullam, quod dolorem voluptas!<p>
+                                </div>
+                            </div> 
+                        </li>
+                        <!-- <li class="splide__slide">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="work">
+        <h2 id="work-h2">Nuestro trabajo</h2>
+        <div id="splide-work-div">
+            <div id="main-slider-div">
+                <div id="main-slider" class="splide">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide"><img src="/assets/trabajo1.jpeg" alt="" class="splide-img-thumbnail"></li>
+                        <li class="splide__slide"><img src="/assets/trabajo2.jpeg" alt="" class="splide-img-thumbnail"></li>
+                        <li class="splide__slide"><img src="/assets/trabajo3.jpeg" alt="" class="splide-img-thumbnail"></li>
+                        <li class="splide__slide"><img src="/assets/trabajo4.jpeg" alt="" class="splide-img-thumbnail"></li>
+                        <li class="splide__slide"><img src="/assets/trabajo5.jpeg" alt="" class="splide-img-thumbnail"></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <div id="splide-work-thumbnails-div">
+            <div id="thumbnail-slider" class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img src="/assets/trabajo1.jpeg" alt="" class="splide-img"></li>
+                    <li class="splide__slide"><img src="/assets/trabajo2.jpeg" alt="" class="splide-img"></li>
+                    <li class="splide__slide"><img src="/assets/trabajo3.jpeg" alt="" class="splide-img"></li>
+                    <li class="splide__slide"><img src="/assets/trabajo4.jpeg" alt="" class="splide-img"></li>
+                    <li class="splide__slide"><img src="/assets/trabajo5.jpeg" alt="" class="splide-img"></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        new Splide('#splide-services', {
+            type: 'loop',
+            perPage: 3,
+            focus: 'center',
+            autoplay: true,
+        }).mount();
+    });
+</script> 
+
+<script>
+    var main = new Splide( '#main-slider', {
+        type       : 'fade',
+        heightRatio: 1,
+        fixedHeight: 300,
+        fixedWidth: 500,
+        pagination : false,
+        arrows     : false,
+        cover      : true,
+        autoplay: true,
+    });
+
+    var thumbnails = new Splide( '#thumbnail-slider', {
+        rewind          : true,
+        fixedWidth      : 104,
+        fixedHeight     : 58,
+        isNavigation    : true,
+        gap             : 10,
+        focus           : 'center',
+        pagination      : false,
+        cover           : true,
+        dragMinThreshold: {
+            mouse: 4,
+            touch: 10,
+        },
+
+    });
+    main.sync( thumbnails );
+    main.mount();
+    thumbnails.mount();
+</script>
+
 </body>
 </html>
 
