@@ -1,9 +1,5 @@
-@font-face {
-    font-family: 'IBM Plex Sans';
-    src: url('/fonts/IBMPlexSans-Regular.ttf');
-}
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
