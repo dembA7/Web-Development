@@ -7,50 +7,54 @@ p{
 #us-text{
     display: flex;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 .us-p{
     font-size: 19px;
     color: #252525;
 }
 #img-about-div{
-    margin-top: 3.4em;
-    margin-left: 3.4em;
-    background-color: #e5e6e8;
-    width: 870px;
-    height: 137px;
-    border-radius: 25px;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
 }
 #img-about{
     position: relative;
-    left: 120px;
-    width: 700px;
+    width: 33vw;
+    height: 25vh;
     aspect-ratio: 9/3;
     object-fit: cover;
-    background-color: #e5e6e8;
     border-radius: 25px;
 }
 #p-about-div{
     position: relative;
-    left: 170px;
     top: 60px;
     width: 30vw;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+}
+#img-strat-div{
+    margin-left: 1.5rem;
+    margin-right: 2rem;
 }
 #img-strat{
     position: relative;
-    left: 17.4vw;
-    width: 700px;
+    width: 33vw;
+    height: 25vh;
     aspect-ratio: 9/3;
     object-fit: cover;
     border-radius: 25px;
 }
 #p-strat-div{
     position: relative;
-    left: 500px;
     top: 60px;
     width: 30vw;
+    margin-right: 1.5rem;
+    margin-left: 3rem;
 }
 #us-imgs{
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 #principles{
     padding-top: 4rem;
