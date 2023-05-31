@@ -15,6 +15,7 @@ body {
     height: 215px;
     width: 100%;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .logoFoot {
     margin-top: 35px;
@@ -54,4 +55,65 @@ body {
 }
 .botonCotizacion{
     margin-right: 2em;
+}
+@media(max-width: 1021px){
+    .logoFoot {
+        margin-top: 55px;
+        width: 359px;
+    }
+    .telephoneText, .whatsappText, .mailText {
+        font-size: 16px;
+    }
+    #botonCotizacionFooter{
+        font-size: 18px;
+    }
+}
+@media(max-width: 918px){
+    .contactInfoContainer {
+        top: 0;
+        left: 75px;
+    }
+    .post-block{
+        display: block;
+    }
+    #right{
+        display: block;
+        position: relative;
+        margin: 0;
+        left: 430px;
+        bottom: 40px;
+    }
+}
+@media(max-width: 694px){
+    .logoFoot {
+        width: 309px;
+    }
+    .contactInfoContainer {
+        left: 45px;
+    }
+    #right{
+        left: 350px;
+    }
+}
+@media(max-width: 615px){
+    .logoFoot {
+        width: 259px;
+    }
+    #right{
+        left: 300px;
+    }
+}
+@media(max-width: 567px){
+    .contactInfoContainer {
+        left: 30px;
+    }
+    #right{
+        left: 285px;
+    }
+    .telephoneText, .whatsappText, .mailText {
+        font-size: 14px;
+    }
+    #botonCotizacionFooter{
+        font-size: 16px;
+    }
 }

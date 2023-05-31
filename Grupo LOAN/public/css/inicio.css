@@ -7,14 +7,13 @@ p{
 #us-text{
     display: flex;
     margin-bottom: 5rem;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .us-p{
     font-size: 19px;
     color: #252525;
 }
 #img-about-div{
-    margin-left: 2rem;
     margin-right: 1.5rem;
 }
 #img-about{
@@ -34,7 +33,6 @@ p{
 }
 #img-strat-div{
     margin-left: 1.5rem;
-    margin-right: 2rem;
 }
 #img-strat{
     position: relative;
@@ -54,30 +52,36 @@ p{
 #us-imgs{
     margin-bottom: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #principles{
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-#principles-div{
+#principles-major-div{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     background-color: #e5e6e8;
+}
+#principles-div{
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
     height: 257px;
 }
 #principle-1, #principle-2, #principle-3{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding-top: 15px;
 }
 #principle-1{
-    padding-left: 25vw;
-}
-#principle-3{
-    padding-right: 18vw;
+    margin-right: 25px;
 }
 .principle-svg{
     justify-content: center;
@@ -122,4 +126,30 @@ p{
 .splide__arrow{
     margin-left: -75px;
     margin-right: -75px;
+}
+@media(max-width: 817px){
+    .us-p{
+        font-size: 18px;
+    }
+    #principles-div{
+        height: 207px;
+    }  
+    .principle-svg{
+        width: 72px;
+        height: 72px;
+    }
+    .p-principle{
+        font-size: 20px;
+    }
+    .splide-img{
+        width: 45%;
+        height: 45%;
+    }
+    .splide__arrow{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .splide__pagination{
+        display: none;
+    }
 }
