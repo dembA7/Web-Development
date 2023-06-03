@@ -7,10 +7,23 @@
   font-size: larger;
 }
 #botonCotizacion{
-  margin-right: 1em;
   background-color: #615680;
   border: #615680;
   height: 39px;
   font-size: large;
   color: #ffffff;
+}
+@media(max-width: 991px){
+  #botonCotizacion{
+    position: relative;
+    left: 38px;
+    background-color: transparent;
+    border: none;
+    height: auto;
+    font-size: larger;
+    color: #ffffff;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
 }
