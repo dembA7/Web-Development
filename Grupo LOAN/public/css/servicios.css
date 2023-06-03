@@ -25,8 +25,16 @@
 .card-desc-text{
     text-align: justify;
 }
-#splide-services, #main-slider{
+#splide-services{
     width: 65vw;
+    margin: 0 auto;
+}
+#splide-work-div{
+    width: 25.3vw;
+    margin: 0 auto;
+}
+#main-slider{
+    
 }
 #thumbnail-slider{
     margin: 0 auto;
@@ -43,36 +51,20 @@
 #main-slider{
     display: flex;
     margin-bottom: 2em;
-    position: relative;
-    left: 695px;
 }
 #thumbnail-slider-track{
     width: 35vw;
     position: relative;
-    left: 31vw;
+    margin: 0 auto;
     margin-bottom: 2.4rem;
-}
-#splide-work-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #work-h2{
     text-align: center;
     padding-top: 3.4em;
     margin-bottom: 1.4em;
 }
-#thumbnail-slider .splide__arrow--prev{
-    position: relative;
-    left: 29.4vw;
-    top: 3vh;
-}
-#thumbnail-slider .splide__arrow--next{
-    position: absolute;
-    right: 28.6vw;
-    top: 3vh;
-}
 #splide-work-thumbnails-div{
+    width: 70vw;
     margin-bottom: 3.4rem;
 }
 .splide__pagination__page{
@@ -80,4 +72,8 @@
     position: relative;
     right: 3.5vw;
     top: 5vh;
+}
+
+@media(max-width: 817px){
+    
 }
