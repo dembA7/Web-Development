@@ -3,6 +3,9 @@
     padding-top: 1.4em;
     margin-bottom: 1.4em;
 }
+.card{
+    width: 16rem;
+}
 .card-img-top{
     width: 75%;
     height: 240px;
@@ -25,6 +28,12 @@
 .card-desc-text{
     text-align: justify;
 }
+.splide__arrow--prev{
+    margin-left: -150px;
+}
+.splide__arrow--next{
+    margin-right: -15px;
+}
 #splide-services{
     width: 65vw;
     margin: 0 auto;
@@ -33,20 +42,13 @@
     width: 25.3vw;
     margin: 0 auto;
 }
-#main-slider{
-    
+.splide-img-m{
+    width: 150px;
 }
 #thumbnail-slider{
     margin: 0 auto;
     display: flex;
     width: 100%;
-}
-#splide-services .splide__arrow{
-    margin-left: -105px;
-}
-#main-slider-div{
-    width: 100%;
-    display: flex;
 }
 #main-slider{
     display: flex;
@@ -64,14 +66,25 @@
     margin-bottom: 1.4em;
 }
 #splide-work-thumbnails-div{
-    width: 70vw;
     margin-bottom: 3.4rem;
+}
+#thumbnail-slider .splide__arrows .splide__arrow--prev{
+    margin-left: -75px;
+}
+#thumbnail-slider .splide__arrows .splide__arrow--next{
+    margin-right: -75px;
 }
 .splide__pagination__page{
     /* display: none; */
     position: relative;
     right: 3.5vw;
     top: 5vh;
+}
+.splide:not( .is-overflow ) .splide__list {
+    justify-content: center;
+}
+.splide:not( .is-overflow ) .splide__slide:last-child {
+    margin: 0 !important;
 }
 
 @media(max-width: 817px){
