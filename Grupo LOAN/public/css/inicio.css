@@ -15,10 +15,11 @@ p{
 }
 #img-about-div{
     margin-right: 1.5rem;
+    order: 2;
 }
 #img-about{
     position: relative;
-    width: 33vw;
+    width: 40vw;
     height: 25vh;
     aspect-ratio: 9/3;
     object-fit: cover;
@@ -27,16 +28,18 @@ p{
 #p-about-div{
     position: relative;
     top: 60px;
-    width: 30vw;
+    width: 37vw;
     margin-right: 3rem;
     margin-left: 1.5rem;
+    order: 1;
 }
 #img-strat-div{
     margin-left: 1.5rem;
+    order: 4;
 }
 #img-strat{
     position: relative;
-    width: 33vw;
+    width: 40vw;
     height: 25vh;
     aspect-ratio: 9/3;
     object-fit: cover;
@@ -45,9 +48,10 @@ p{
 #p-strat-div{
     position: relative;
     top: 60px;
-    width: 30vw;
+    width: 37vw;
     margin-right: 1.5rem;
     margin-left: 3rem;
+    order: 3;
 }
 #us-imgs{
     margin-bottom: 3rem;
@@ -133,6 +137,7 @@ p{
     }
     #principles-div{
         height: 207px;
+        justify-content: space-between;
     }  
     .principle-svg{
         width: 72px;
@@ -146,10 +151,93 @@ p{
         height: 45%;
     }
     .splide__arrow{
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .splide__pagination{
         display: none;
+    }
+}
+@media (max-width: 500px) {
+    #us{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+    .us-p{
+        font-size: 14px;
+    }
+    #us-text{
+        display: initial;
+    }
+    #p-about-div, #p-strat-div{
+        position: initial;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    #us-imgs{
+        display: initial;
+    }
+    #img-about-div{
+        position: initial;
+        position: relative;
+        bottom: 300px;
+        display: flex;
+        justify-content: center;
+        margin-right: initial;
+    }
+    #img-about{
+        position: initial;
+        width: 85%;
+        height: 250px;
+    }
+    #p-strat-div{
+        position: relative;
+        top: 300px;
+    }
+    #img-strat-div{
+        position: initial;
+        position: relative;
+        bottom: 25px;
+        margin-left: initial;
+        display: flex;
+        justify-content: center;
+    }
+    #img-strat {
+        position: initial;
+        width: 85%;
+        height: 250px;
+    }
+    #principles-div{
+        justify-content: space-evenly;
+        height: 390px;
+    }
+    .p-principle{
+        font-size: 18px;
+    }
+
+}
+@media(max-width: 439px){
+    #img-about-div{
+        bottom: 320px;
+    }
+}
+@media(max-width: 386px){
+    #img-about-div{
+        bottom: 350px;
+    }
+}
+@media(max-width: 379px){
+    #p-strat-div{
+        position: relative;
+        top: 275px;
+    }
+    #img-strat-div{
+        bottom: 50px;
+    }
+    #principles{
+        padding-top: initial;
     }
 }
