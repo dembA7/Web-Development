@@ -118,9 +118,9 @@ p{
 .splide-img{
     width: 65%;
     height: 45%;
-    aspect-ratio: 4/3;
+    /* aspect-ratio: 4/3;
     object-fit: contain;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: color-burn; */
 }
 .splide__slide {
     display: flex;
