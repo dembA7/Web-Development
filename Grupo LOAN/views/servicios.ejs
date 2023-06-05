@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css-min/servicios-min.css">
+    <link rel="stylesheet" href="/css/servicios.css">
     <link rel="stylesheet" href="/css-min/splide.min.css">
     <script src="/js/splide.min.js"></script>
 </head>
@@ -182,48 +182,7 @@
         </div>
     </section>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        new Splide('#splide-services', {
-            type: 'loop',
-            perPage: 3,
-            focus: 'center',
-            // autoplay: true,
-        }).mount();
-    });
-</script> 
-
-<script>
-    var main = new Splide( '#main-slider', {
-        type       : 'fade',
-        heightRatio: 1,
-        fixedHeight: 300,
-        fixedWidth: 500,
-        pagination : false,
-        arrows     : false,
-        cover      : true,
-        // autoplay: true,
-    });
-
-    var thumbnails = new Splide( '#thumbnail-slider', {
-        rewind          : true,
-        fixedWidth      : 104,
-        fixedHeight     : 58,
-        isNavigation    : true,
-        gap             : 10,
-        focus           : 'center',
-        pagination      : false,
-        cover           : true,
-        dragMinThreshold: {
-            mouse: 4,
-            touch: 10,
-        },
-
-    });
-    main.sync( thumbnails );
-    main.mount();
-    thumbnails.mount();
-</script>
+<script src="/js/servicios.js"></script>
 
 </body>
 </html>
