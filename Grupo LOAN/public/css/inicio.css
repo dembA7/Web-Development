@@ -120,7 +120,6 @@ p{
     height: 45%;
     aspect-ratio: 4/3;
     object-fit: contain;
-    /* mix-blend-mode: color-burn; */
 }
 .splide__slide {
     display: flex;
@@ -217,7 +216,16 @@ p{
     .p-principle{
         font-size: 18px;
     }
-
+    .splide-img{
+        width: 70%;
+        height: 65%;
+    }
+    .splide__arrow--prev{
+        margin-left: -35px;
+    }
+    .splide__arrow--next{
+        margin-right: -35px;
+    }
 }
 @media(max-width: 439px){
     #img-about-div{
