@@ -10,8 +10,8 @@ exports.getServicios = (request, response, next) => {
     });
 };
 
-exports.getCotizacion = (request, response, next) => {
-    response.render('cotizacion', {
-        titulo: 'Grupo LOAN'
-    });
-};
+// exports.getCotizacion = (request, response, next) => {
+//     response.render('cotizacion', {
+//         titulo: 'Grupo LOAN'
+//     });
+// };
