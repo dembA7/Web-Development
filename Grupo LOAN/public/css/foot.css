@@ -117,3 +117,28 @@ body {
         font-size: 16px;
     }
 }
+@media(max-width: 524px){
+    .footContainer{
+        overflow-y: auto;
+        height: 350px;
+    }
+    .non-flex{
+        display: block;
+    }
+    .logoFootContainer{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 35px;
+    }
+    .contactInfoContainer{
+        position: initial;
+        position: relative;
+        left: 25%;
+        top: -35px;
+    }
+    #right{
+        left: 100px;
+        top: -75px;
+    }
+}
