@@ -156,7 +156,7 @@
 }
 @media(max-width: 421px){
     #thumbnail-slider .splide__arrows .splide__arrow--prev{
-        margin-left: 105px;
+        margin-left: 5px;
     }
     #thumbnail-slider .splide__arrows .splide__arrow--next{
         margin-right: 5px;
