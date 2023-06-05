@@ -13,10 +13,18 @@
     object-fit: contain;
     background-color: #e5e6e8;
 }
-#splide-services {
+#splide-services{
     margin: 0 auto;
     position: relative;
-    left: 65px;
+    left: 60px;
+}
+#splide-services {
+    position: relative;
+    left: 60px;
+}
+.splide__track{
+    width: 55.5vw;
+    margin: 0 auto;
 }
 .splide-img{
     width: 65%;
@@ -28,15 +36,20 @@
 .card-desc-text{
     text-align: justify;
 }
-.splide__arrow--prev{
-    margin-left: -150px;
+#splide-services .splide__arrows .splide__arrow--prev{
+    margin-left: 130px;
+    
 }
-.splide__arrow--next{
-    margin-right: -15px;
+#splide-services .splide__arrows .splide__arrow--next{
+    margin-right: 130px;
+    margin-left: 5px;
 }
-#splide-services{
-    width: 65vw;
-    margin: 0 auto;
+.splide__slide__services{
+    display: flex;
+    justify-content: center;
+    width: 22rem !important;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 #splide-work-div{
     width: 25.3vw;
