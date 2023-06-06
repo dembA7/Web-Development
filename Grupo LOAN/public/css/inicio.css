@@ -154,7 +154,7 @@ p{
         margin-right: 5px;
     }
     .splide__pagination{
-        display: none;
+        display: none !important;
     }
 }
 @media (max-width: 500px) {
