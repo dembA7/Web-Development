@@ -167,6 +167,12 @@ p{
     .us-p{
         font-size: 14px;
     }
+    .us-title-about, .us-title-strat{
+        font-size: 15px;
+    }
+    .us-title-strat{
+        margin-bottom: 25px;
+    }
     #us-text{
         display: initial;
     }

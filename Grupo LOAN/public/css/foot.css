@@ -96,9 +96,6 @@ body {
     }
 }
 @media(max-width: 615px){
-    .logoFoot {
-        width: 259px;
-    }
     #right{
         left: 300px;
     }
@@ -119,7 +116,7 @@ body {
 }
 @media(max-width: 524px){
     .footContainer{
-        overflow-y: auto;
+        overflow-y: hidden;
         height: 350px;
     }
     .non-flex{
