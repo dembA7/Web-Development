@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         type: 'loop',
         perPage: 3,
         focus: 'center',
-        // autoplay: true,
+        autoplay: true,
     }).mount();
 });
 
@@ -15,7 +15,7 @@ var main = new Splide( '#main-slider', {
     pagination : false,
     arrows     : false,
     cover      : true,
-    // autoplay: true,
+    autoplay: true,
 });
 
 var thumbnails = new Splide( '#thumbnail-slider', {
