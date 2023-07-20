@@ -2,7 +2,7 @@
 
 Aquí almacenaré mi histórico de proyectos realizados en freelance de desarrollo UI / UX. Este repositorio muestra el progreso de mis habilidades y conocimientos dentro del mundo del desarrollo web.
 
-- ## Grupo LOAN
+## Grupo LOAN
 
 Desarrollé un sitio web para Grupo LOAN, empresa dedicada al servicio de la industria en el sector bajío. Dentro, se puede encontrar información relacionada a la imagen corporativa, clientes, catálogo de servicios y portafolio de trabajos. <br>
   
