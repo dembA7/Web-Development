@@ -8,6 +8,6 @@ Desarrollé un sitio web para Grupo LOAN, empresa dedicada al servicio de la ind
   
 Puedes visitar este sitio ingresando a [grupoloan.com.mx](https://grupoloan.com.mx)  
 
-![Inicio](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanInicio.jpg)
+![Inicio](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanInicio.jpg)  
 
-![Servicios](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanServicios.jpg)
+![Servicios](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanServicios.jpg)  
