@@ -6,8 +6,8 @@ Aquí almacenaré mi histórico de proyectos realizados en freelance de desarrol
 
 Desarrollé un sitio web para Grupo LOAN, empresa dedicada al servicio de la industria en el sector bajío. Dentro, se puede encontrar información relacionada a la imagen corporativa, clientes, catálogo de servicios y portafolio de trabajos. <br>
   
-Puedes visitar este sitio ingresando a [grupoloan.com.mx](https://grupoloan.com.mx)
-<br>
+Puedes visitar este sitio ingresando a [grupoloan.com.mx](https://grupoloan.com.mx)  
+
 ![Inicio](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanInicio.jpg)
-<br>
+
 ![Servicios](https://github.com/dembA7/Web-Development/blob/main/Grupo%20LOAN/public/assets/GrupoLoanServicios.jpg)
